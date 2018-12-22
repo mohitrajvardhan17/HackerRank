@@ -4,18 +4,17 @@
 
 import java.util.Scanner;
 
-class Solution{
-    public static void main(String []argh)
-    {
+class Solution {
+    public static void main(String[] argh) {
         /* Read input */
         Scanner scan = new Scanner(System.in);
-        int t=scan.nextInt();
+        int t = scan.nextInt();
 
         /* Print output */
-        for(int i = 0; i < t; i++){
+        for (int i = 0; i < t; i++) {
             try {
-                long x  = scan.nextLong();
-                System.out.println(x+ " can be fitted in:");
+                long x = scan.nextLong();
+                System.out.println(x + " can be fitted in:");
                 if (x >= Byte.MIN_VALUE && x <= Byte.MAX_VALUE) {
                     System.out.println("* byte");
                 }
@@ -29,7 +28,7 @@ class Solution{
                     System.out.println("* long");
                 }
             } catch (Exception e) {
-                System.out.println(scan.next()+" can't be fitted anywhere.");
+                System.out.println(scan.next() + " can't be fitted anywhere.");
             }
         }
         scan.close();
