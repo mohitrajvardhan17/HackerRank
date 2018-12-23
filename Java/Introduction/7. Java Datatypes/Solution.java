@@ -5,7 +5,7 @@
 import java.util.Scanner;
 
 class Solution {
-    public static void main(String[] argh) {
+    public static void main(String[] args) {
         /* Read input */
         Scanner scan = new Scanner(System.in);
         int t = scan.nextInt();
