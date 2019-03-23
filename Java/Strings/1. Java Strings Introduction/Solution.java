@@ -22,7 +22,7 @@ public class Solution {
         if(str == null || str.isEmpty()){
             return "";
         } else {
-            return str.substring(0,1).toUpperCase() + str.substring(1);
+            return str.substring(0,1).toUpperCase() + str.substring(1);//ToDo: String Camel Casing
         }
     }
 }

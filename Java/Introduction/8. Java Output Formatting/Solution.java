@@ -13,7 +13,7 @@ public class Solution {
             String s1 = scan.next();
             int x = scan.nextInt();
             /* Print output */
-            System.out.format("%-15s%03d%n", s1, x);
+            System.out.format("%-15s%03d%n", s1, x);//ToDo: Check System.out.format implementation
         }
         System.out.println("================================");
         scan.close();

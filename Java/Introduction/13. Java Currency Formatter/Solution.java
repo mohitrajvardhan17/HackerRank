@@ -14,7 +14,7 @@ public class Solution {
         scan.close();
 
         /* Create NumberFormat instance for US, INDIA, CHINA & FRANCE Currency*/
-        NumberFormat us     = NumberFormat.getCurrencyInstance(Locale.US);
+        NumberFormat us     = NumberFormat.getCurrencyInstance(Locale.US);//Todo: Checck Implemenation of NumberFormat
         NumberFormat india  = NumberFormat.getCurrencyInstance(new Locale("en", "in"));
         NumberFormat china  = NumberFormat.getCurrencyInstance(Locale.CHINA);
         NumberFormat france = NumberFormat.getCurrencyInstance(Locale.FRANCE);

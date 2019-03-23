@@ -16,7 +16,7 @@ public class Solution {
         } else {
             for (int i = 0; i <= s.length() - k; i++) {
                 String curr = s.substring(i, i + k);
-                if (smallest.compareTo(curr) > 0){
+                if (smallest.compareTo(curr) > 0){//ToDo: Check JAVA compareTo()
                     smallest = curr;
                 }
                 if (largest.compareTo(curr) < 0) {

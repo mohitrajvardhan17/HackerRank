@@ -28,7 +28,7 @@ class Result {
      */
 
     public static String findDay(int month, int day, int year) {
-        return java.time.LocalDate.of(year, month, day).getDayOfWeek().toString();
+        return java.time.LocalDate.of(year, month, day).getDayOfWeek().toString();//ToDO: java.time.LocalDate.of
     }
 
 }
